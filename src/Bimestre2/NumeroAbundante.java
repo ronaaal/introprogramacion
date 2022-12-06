@@ -9,6 +9,7 @@ public class NumeroAbundante {
         int suma_divisores = 0;
         System.out.println("Ingrese el número: ");
         int numero = teclado.nextInt();
+        
         while (contador < numero){
             if (numero % contador == 0){
                 suma_divisores = suma_divisores + contador;
