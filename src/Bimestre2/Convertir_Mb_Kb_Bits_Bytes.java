@@ -10,6 +10,7 @@ public class Convertir_Mb_Kb_Bits_Bytes {
         double valor_bytes;
         double valor_bits;
         Scanner teclado = new Scanner(System.in);
+        
         while (interruptor_convertir == 1){
             System.out.println("- Escriba '1' para convertir de Mb a Kb");
             System.out.println("- Escriba '2' para convertir de Kb a Mb");
